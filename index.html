@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed nav11">
+        <div class="container-fluid">
+            <div class="logo"><img src="img/egypt-(1).png" class="dimention-img" alt=""></div>
+            <a class="navbar-brand tour " href="#">4Tours</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></i></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">CAIRO</a></li>
+                            <li><a class="dropdown-item" href="#">ALEX</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">LUXOR</a></li>
+                            <li><a class="dropdown-item" href="#">ASWAN</a></li>
+
+                            <li><a class="dropdown-item" href="#">MORE..</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">about</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+
+                <button type="button" class="btn btn-primary ms-2" data-bs-toggle="modal" data-bs-target="#myModal">
+                    log in
+                  </button>
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+
+                            <div class="modal-header">
+                                <h4 class="modal-title">log in</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+
+                            <div class="modal-body ms-1">
+                                <form action="/action_page.php" class=" form11">
+                                    <div class="mb-3 mt-3">
+                                        <label for="email" class="form-label">Email:</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="pwd" class="form-label">Password:</label>
+                                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                                    </div>
+                                    <div class="form-check mb-3">
+                                        <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                                  </label>
+                                    </div>
+
+                                </form>
+                            </div>
+
+
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-primary me-2">Submit</button>
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- //////////// -->
+
+    <!-- ///////////////////////////////// -->
+    <div class="container-fluid">
+        <div class="container iconn d-flex justify-content-between align-items-between">
+            <a href=""><i class="fab fa-facebook-square iconn1 text-primary "></i></a>
+            <a href=""><i class="fab fa-twitter iconn1 text-primary "></i></a>
+            <a href=""><i class="fab fa-youtube iconn1 text-primary "></i></a>
+            <a href=""><i class="fab fa-linkedin-in iconn1 text-primary "></i></a>
+            <a href=""><i class="fab fa-linkedin iconn1 text-primary "></i></a>
+            <a href=""><i class="fab fa-instagram iconn1 text-primary "></i></a>
+        </div>
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img src="img/egypt (1).webp" class="d-block w-100 carousel-img" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-bg-dark  p-5 opacity-50 rounded">
+                        <h5>luxor</h5>
+                        <p>welcome to beauty</p>
+                        <button class="btn btn-primary btn-sm">Visit Us</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/egypt17.jpg" class="d-block w-100  carousel-img" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-bg-dark p-5 opacity-50 rounded">
+                        <h5>PYRAMIDS</h5>
+                        <p>See Wonders Of Ancients </p>
+                        <button class="btn btn-primary btn-sm">Visit Us</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/egypt-(16).png" class="d-block w-100 carousel-img" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-bg-dark p-5 opacity-50 rounded">
+                        <h5>Giza</h5>
+                        <p>Enjoy Seeing The Glory</p>
+                        <button class="btn btn-primary btn-sm">Visit Us</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            welcome
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">see more</a>
+        </div>
+    </div>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        CAIRO city
+            </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+                    You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+             ALEANDRIA city
+            </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+                    You can modify any of this with custom CSS
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              ASWAN city
+            </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+                    You can modify any of this with custom CSS
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ////////////////////////////////// -->
+    <div class="container-fluid bg-primary p-3 ">TRANSLATE FROM ARABIC TO ENGLISH</div>
+
+    <div class="container-fluid translate p-3 mb-4">
+        <label for="comment">Comments:</label>
+        <br>
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Are you sure that you want to copy this text
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">yes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        the text has copied
+                    </div>
+                    <div class="modal-footer">
+
+
+                        <button class="btn btn-primary " data-bs-toggle="modal">ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary mt-3 mb-3" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-toggle="tooltip" title="copy to clipboard">copy</button>
+        <textarea class="form-control mb-3" rows="5" id="comment" name="text" placeholder="translate:"></textarea>
+
+    </div>
+    <!-- /////////////////////////////////// -->
+    <hr>
+    <div class="container-fluid bg-primary p-3 ">TRANSLATE FROM ARABIC TO FRENCH</div>
+
+    <div class="container-fluid translate p-3 mb-4">
+        <label for="comment">Comments:</label>
+        <br>
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Are you sure that you want to copy this text
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">yes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        the text has copied
+                    </div>
+                    <div class="modal-footer">
+
+
+                        <button class="btn btn-primary " data-bs-toggle="modal">ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary mt-3 mb-3" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-toggle="tooltip" title="copy to clipboard">copy</button>
+        <textarea class="form-control mb-3" rows="5" id="comment" name="text" placeholder="translate:"></textarea>
+
+    </div>
+    <!-- ///////////////////////////////// -->
+    <hr>
+    <div class="container-fluid bg-primary p-3 ">TRANSLATE FROM ENGLISH TO ARABIC</div>
+
+    <div class="container-fluid translate p-3 mb-4">
+
+        <label for="comment">Comments:</label>
+        <br>
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Are you sure that you want to copy this text
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">yes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        the text has been copied
+                    </div>
+                    <div class="modal-footer">
+
+
+                        <button class="btn btn-primary " data-bs-toggle="modal">ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary mt-3 mb-3" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-toggle="tooltip" title="copy to clipboard">copy</button>
+        <textarea class="form-control mb-3" rows="5" id="comment" name="text" placeholder="translate:"></textarea>
+
+    </div>
+    <hr>
+
+    <div class="container-fluid parent-cards3 pb-5 pt-5 ">
+        <div class="title mx-auto text-center p-1 bg-light pt-4 rounded-top-4">
+            <h1 class="shadow">NATIONAL PARKS</h1>
+        </div>
+        <div class="  bg-light d-flex flex-wrap justify-content-evenly p-5 pb-1 rounded-bottom-4">
+
+            <div class="card mb-5 shadow card-effect" style="width: 18rem;">
+                <img src="img/egypt (37).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">BURULLUS LAKE</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">READ MORE</a>
+                </div>
+            </div>
+            <!-- //// -->
+            <div class="card mb-5 shadow card-effect" style="width: 18rem;">
+                <img src="img/egypt (38).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">QARUN LAKE</h5>
+                    <p class="card-text">Some quick example text to build on the QARUN LAKE and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">READ MORE</a>
+                </div>
+            </div>
+            <!-- /// -->
+            <div class="card mb-5 shadow card-effect" style="width: 18rem;">
+                <img src="img/egypt (51).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">RAS MOHAMED LAKE</h5>
+                    <p class="card-text">Some quick example text to build on the QARUN LAKE and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">READ MORE</a>
+                </div>
+            </div>
+            <!-- ////// -->
+            <div class="card mb-5 shadow card-effect" style="width: 18rem;">
+                <img src="img/egypt (26).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">ASHTOM EL-GAMIL LAKE</h5>
+                    <p class="card-text">Some quick example text to build on the QARUN LAKE and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">READ MORE</a>
+                </div>
+            </div>
+            <!-- /////// -->
+            <div class="card mb-5 shadow card-effect" style="width: 18rem;">
+                <img src="img/egypt (45).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">SALOUGA LAKE</h5>
+                    <p class="card-text">Some quick example text to build on the QARUN LAKE and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">READ MORE</a>
+                </div>
+            </div>
+            <!-- ////////// -->
+            <div class="card mb-5 shadow card-effect" style="width: 18rem;">
+                <img src="img/egypt (24).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">ABU GALOUM LAKE</h5>
+                    <p class="card-text">Some quick example text to build on the QARUN LAKE and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">READ MORE</a>
+                </div>
+
+            </div>
+            <hr>
+        </div>
+
+    </div>
+
+    <!-- //////////////////////////////////////////////////// -->
+    <div class="container-fluid parent-cards2 bg-primary p-3 ">
+        <div class="title mx-auto text-center bg-light pt-4 pb-2 ps-3 pe-3 rounded-top-4">
+            <h1 class="shadow">OUR TOUR GUIDE</h1>
+        </div>
+        <div class=" p-5 grid1 bg-light row rounded-4 ">
+            <div class="card text-bg-dark cards11 cards111 col-sm-12 col-md-4 col-lg-4 ">
+                <img src="img/egypt (23).jpg" class="card-img cards11" alt="...">
+                <div class="card-img-overlay  bg-opacity-25 cards11 ">
+                    <h5 class="card-title ">EYAD SALEM</h5>
+                    <p class="card-text">profisional tour guide. This content is a little bit longer.</p>
+                    <img src="img/egypt (44).jpg" class="rounded-circle border w-50 img--" alt="...">
+                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+            <div class="card text-bg-dark cards11 cards111 col-sm-12 col-md-4 col-lg-4 ">
+                <img src="img/egypt (411).jpg" class="card-img cards11" alt="...">
+                <div class="card-img-overlay  bg-opacity-25 cards11 ">
+                    <h5 class="card-title ">MOHMOUD QOTB</h5>
+                    <p class="card-text">profisional tour guide. This content is a little bit longer.</p>
+                    <img src="img/egypt (40).jpg" class="rounded-circle border w-50 img--" alt="...">
+                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+            <div class="card text-bg-dark cards11 cards111 col-sm-12 col-md-4 col-lg-4  ">
+                <img src="img/egypt (512).jpg" class="card-img cards11 " alt="...">
+                <div class="card-img-overlay  bg-opacity-25 cards11">
+                    <h5 class="card-title ">SALEH NAEEM</h5>
+                    <p class="card-text">profisional tour guide.. a little bit longer.</p>
+                    <img src="img/egypt (49).jpg" class="rounded-circle w-50 border img--" alt="...">
+                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ////////////////////////////////////////////////////////////// -->
+    <div class="container-fluid bg-light p-3  mt-1">
+        <div class="title mx-auto text-center bg-light pt-4 pb-2 ps-3 pe-3 rounded-4 mb-3">
+            <h1 class="shadow">JOURNEY THROUGH TIME</h1>
+            <h4>EXPLORING EGYPT'S TREASURES</h4>
+        </div>
+
+        <div class="card mb-3 mx-auto tallcard" style="max-width: fit-content;">
+            <div class="row g-0">
+                <div class="col-md-4 img-divp ">
+                    <img src="img/egypt (23).jpg" class="img-fluid rounded-start img-rad" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">4days cairo tour packages</h5>
+                        <p class="card-text"><small class="text-body-secondary"><img src="img/calendar-alt.svg" class="calendar" alt=""> Last updated 3 mins ago</small></p>
+                        <hr class="w-25 ">
+                        <p class="card-text">privite 4 days dicovering Egypt most attractive places</p>
+                        <p>tour type : classic tour</p>
+                        <button class="btn btn-primary btn-sm p-0 ps-1 pe-1"><i class="fas fa-rocket"></i> view tour</button>
+                        <button class="btn btn-primary btn-sm p-0 ps-1 pe-1"><i class="fas fa-gift"></i></i> $345</button>
+                        <button class="btn btn-primary btn-sm p-0 ps-1 pe-1"><i class="far fa-clock pe-1"></i> 3nights</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card mb-3 mx-auto tallcard " style="max-width:  fit-content;">
+            <div class="row g-0">
+
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">4days Alexandria tour packages</h5>
+                        <p class="card-text"><small class="text-body-secondary"><img src="img/calendar-alt.svg" class="calendar" alt=""> Last updated 3 mins ago</small></p>
+                        <hr class="w-25 ">
+
+                        <p class="card-text">privite 4 days dicovering Egypt most attractive places</p>
+                        <p>tour type : classic tour</p>
+                        <button class="btn btn-primary btn-sm p-0 ps-1 pe-1"><i class="fas fa-rocket"></i> view tour</button>
+                        <button class="btn btn-primary btn-sm p-0 ps-1 pe-1"><i class="fas fa-gift"></i></i> $345</button>
+                        <button class="btn btn-primary btn-sm p-0 ps-1 pe-1"><i class="far fa-clock pe-1"></i> 3nights</button>
+                    </div>
+                </div>
+                <div class="col-md-4 img-divp1">
+                    <img src="img/egy (1).jpg" class="img-fluid rounded-end img-rad1" alt="...">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="card mb-3 mx-auto tallcard" style="max-width:  fit-content;">
+            <div class="row g-0">
+                <div class="col-md-4 img-divp">
+                    <img src="img/egy (3).jpg" class="img-fluid rounded-start img-rad" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">4days Aswan tour packages</h5>
+                        <p class="card-text"><small class="text-body-secondary"><img src="img/calendar-alt.svg" class="calendar" alt=""> Last updated 3 mins ago</small></p>
+                        <hr class="w-25 ">
+                        <p class="card-text">privite 4 days dicovering Egypt most attractive places</p>
+                        <p>tour type : classic tour</p>
+                        <button class="btn btn-primary btn-sm p-0 ps-1 pe-1"><i class="fas fa-rocket"></i> view tour</button>
+                        <button class="btn btn-primary btn-sm p-0 ps-1 pe-1"><i class="fas fa-gift"></i></i> $345</button>
+                        <button class="btn btn-primary btn-sm p-0 ps-1 pe-1"><i class="far fa-clock pe-1"></i> 3nights</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3 mx-auto tallcard" style="max-width: fit-content;">
+            <div class="row g-0">
+
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">4days Siwa tour packages</h5>
+                        <p class="card-text"><small class="text-body-secondary"><img src="img/calendar-alt.svg" class="calendar" alt=""> Last updated 3 mins ago</small></p>
+                        <hr class="w-25 ">
+                        <p class="card-text">privite 4 days dicovering Egypt most attractive places</p>
+                        <p>tour type : classic tour</p>
+                        <button class="btn btn-primary btn-sm p-0 ps-1 pe-1"><i class="fas fa-rocket"></i> view tour</button>
+                        <button class="btn btn-primary btn-sm p-0 ps-1 pe-1"><i class="fas fa-gift"></i></i> $345</button>
+                        <button class="btn btn-primary btn-sm p-0 ps-1 pe-1"><i class="far fa-clock pe-1"></i> 3nights</button>
+                    </div>
+                </div>
+                <div class="col-md-4 img-divp1">
+                    <img src="img/egy (4).jpg" class="img-fluid rounded-end img-rad1" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="">
+    <div class="container-fluid text-center">
+        <div class="parent-contact container mx-auto gap-5 mt-3 row justify-content-between p-4">
+            <div class="title mx-auto text-center">
+                <h1 class="text-uppercase">join us</h1>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 div11 rounded-3">
+                <p>subscribe now</p><i class="fab fa-facebook-square ico33"></i>
+                <a href="" class="d-block text-decoration-none">go to link</a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3  div11 rounded-3">
+                <p>subscribe now</p><i class="fab fa-twitter ico33"></i><a class="d-block text-decoration-none" href="">go to link</a></div>
+            <div class="col-sm-12 col-md-6 col-lg-3  div11 rounded-3">
+                <p>subscribe now</p><i class="fab fa-youtube ico33"></i><a href="" class="d-block text-decoration-none">go to link</a></div>
+            <div class="col-sm-12 col-md-6 col-lg-3  div11 rounded-3">
+                <p>subscribe now</p><i class="fab fa-youtube ico33"></i><a href="" class="d-block text-decoration-none">go to link</a></div>
+            <div class="col-sm-12 col-md-6 col-lg-3  div11 rounded-3">
+                <p>subscribe now</p><i class="fab fa-youtube ico33"></i><a href="" class="d-block text-decoration-none">go to link</a></div>
+            <div class="col-sm-12 col-md-6 col-lg-3  div11 rounded-3">
+                <p>subscribe now</p><i class="fab fa-linkedin ico33"></i><a class="d-block text-decoration-none" href="">go to link</a></div>
+        </div>
+
+    </div>
+
+
+    <!-- ///////////////////////////////////////// -->
+    <footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary">
+        <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary text-center">
+            <div class="row">
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="Bootstrap">
+                        <img src="img/egypt-(111).png" class=" w-25 me-2" alt="">
+                        <span class="fs-5 span-company">COMPANY</span>
+                    </a>
+                    <hr class="w-75">
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">Designed and built with all thebutors">our.</li>
+                        <li class="mb-2">Code licensed </li>
+                        <li class="mb-2">Currently v5.3.3.</li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="Bootstrap">
+                        <img src="img/egypt-(111).png" class=" w-25 me-2" alt="">
+                        <span class="fs-5 span-company">ABOUT</span>
+                    </a>
+                    <hr class="w-75">
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">Designed and built with all thebutors">our.</li>
+                        <li class="mb-2">Code licensed </li>
+                        <li class="mb-2">Currently v5.3.3.</li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="Bootstrap">
+                        <img src="img/egypt-(111).png" class=" w-25 me-2" alt="">
+                        <span class="fs-5 span-company">MISION</span>
+                    </a>
+                    <hr class="w-75">
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">Designed and built with all thebutors">our.</li>
+                        <li class="mb-2">Code licensed </li>
+                        <li class="mb-2">Currently v5.3.3.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="Bootstrap">
+                        <img src="img/egypt-(111).png" class=" w-25 me-2" alt="">
+                        <span class="fs-5 span-company">VISION</span>
+                    </a>
+                    <hr class="w-75">
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">Designed and built with all thebutors">our.</li>
+                        <li class="mb-2">Code licensed </li>
+                        <li class="mb-2">Currently v5.3.3.</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="text-center">COPYRIGHT @ 2020 RANEEMELAGAMY.EGYPTTOURCOMPANY.ALL RIGHTS</div>
+
+                <hr class="mt-3">
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/bootstrap.bundle.min.js.map"></script> -->
+    <script src="js/javascript.js"></script>
+
+</body>
+
+</html>
