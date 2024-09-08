@@ -1,0 +1,281 @@
+body {
+    color: #c8a73d;
+    background-color: #211e13c9;
+    overflow-x: hidden;
+    padding: 0 10px;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #504d44!important;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-img {
+    height: 100vh;
+}
+
+.iconn {
+    height: 60vh;
+    position: fixed;
+    right: 29px;
+    z-index: 15;
+    flex-direction: column;
+    align-items: flex-end;
+    top: 100px;
+    width: 10px;
+}
+
+.iconn1,
+.ico33 {
+    font-size: 44px;
+    cursor: pointer;
+    color: #c8a73d !important;
+}
+
+.div11 a {
+    color: #504d44;
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: #5e4a35a3;
+    --bs-dropdown-link-hover-bg: #c8a73d7d;
+}
+
+.modal-backdrop {
+    position: static !important;
+}
+
+.accordion-body {
+    background: #a18750c7;
+}
+
+.modal-content {
+    background: #6b6857;
+}
+
+.form-control {
+    background-color: #e7e7cc!important;
+}
+
+.nav11 {
+    top: 0;
+    z-index: 15;
+    width: 100%;
+    background: -webkit-linear-gradient(top right, #171616, #d1a40f);
+}
+
+.tour {
+    color: #171616;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carousel-caption {
+    color: #d9c06b!important;
+    /* #d9c06b  #ccba7e*/
+}
+
+.title {
+    color: #c8a73d!important;
+}
+
+.img-- {
+    width: 100px !important;
+    height: 100px;
+}
+
+.card-img-overlay {
+    background-color: #615e5269 !important;
+}
+
+.btn {
+    background-color: #c8a73d;
+    color: #171616;
+}
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(225 195 33 / 25%)!important;
+    --bs-accordion-active-color: #c09c1e!important;
+    --bs-accordion-active-bg: #504e45!important;
+    --bs-accordion-btn-color: var(--bs-body-color);
+    --bs-accordion-btn-bg: #e7e7cc;
+}
+
+.navbar-toggler {
+    color: rgba(238, 237, 228, 0.83);
+    background-color: #766116;
+    border: var(--bs-border-width) solid rgb(194 166 14 / 77%);
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #efba4a;
+    --bs-btn-border-color: #4d3f0c;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #92783d;
+    --bs-btn-hover-border-color: #c0ca0a;
+}
+
+.bg-primary {
+    background-color: #211e13c9 !important;
+}
+
+.card-header {
+    background-color: rgb(80 78 69);
+    color: #bb9920;
+}
+
+.card-body {
+    color: #504e45;
+    background-color: #a18750d9;
+}
+
+.card {
+    --bs-card-bg: #a1864e;
+}
+
+.translate {
+    background-color: #a18750;
+}
+
+.grid1 {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+    flex-wrap: wrap;
+}
+
+.cards111 {
+    width: 30%;
+}
+
+@media (max-width :768px) {
+    .grid1 {
+        flex-direction: column !important;
+    }
+    .cards111 {
+        width: fit-content !important;
+        margin: 10px auto;
+    }
+}
+
+.cards11 {
+    height: 300px;
+}
+
+.img-rad,
+.img-divp {
+    border-bottom-right-radius: 140px;
+}
+
+.img-rad1,
+.img-divp1 {
+    border-bottom-left-radius: 140px;
+}
+
+.calendar {
+    width: 15px;
+}
+
+.parent-cards2,
+.parent-cards3 {
+    background-attachment: fixed;
+    background-image: url(../img/egy\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 177px 0!important;
+}
+
+.parent-cards3 {
+    padding-bottom: 100px!important;
+}
+
+.div11 {
+    background-color: rgb(231 231 204);
+    box-shadow: 1px 1px 10px #d49e2a;
+    padding: 15px 0;
+}
+
+.text-bg-dark {
+    color: #e7e7cc!important;
+}
+
+.span-company {
+    color: #434241;
+}
+
+.parent-contact {
+    column-gap: 20px;
+}
+
+.dimention-img {
+    height: 40px;
+    width: 84px;
+}
+
+.bg-body-tertiary {
+    background-color: #a18750!important;
+}
+
+.card-effect {
+    position: relative;
+}
+
+.card-effect::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #cba312;
+    opacity: 0;
+    transition: 2s;
+}
+
+.card-effect:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.card-effect::before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0;
+    transition: 2s;
+}
+
+.card-effect:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.cards111:hover {
+    transform: scale(0.80, 0.80);
+    transition: 0.7s;
+}
+
+.tallcard:hover .img-rad {
+    transform: scale(1.2, 1.2);
+    transition: 0.5s;
+}
+
+.tallcard:hover .img-rad1 {
+    transform: scale(1.2, 1.2);
+    transition: 0.5s;
+}
+
+.img-divp,
+.img-divp1 {
+    overflow: hidden;
+}
